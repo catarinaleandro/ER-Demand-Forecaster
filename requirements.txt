@@ -1,0 +1,10 @@
+# Starter dependencies; no compatibility-tested environment has been established.
+# Use Python 3.11 as an initial team target and confirm against course requirements.
+# After a clean successful run, pin exact versions and record the Python version.
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyterlab
+# Add statsmodels, pyarrow, or dashboard packages only when actually needed.
