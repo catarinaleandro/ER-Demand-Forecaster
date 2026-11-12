@@ -218,3 +218,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Capstone: data stays local; only the placeholder README is tracked
+/data/*
+!/data/README.md
+# Generated artifacts and local outputs
+/artifacts/
+/models/
+/outputs/
+*.pkl
+*.pickle
+*.joblib
+*.parquet
+*.feather
+*.csv
+*.tsv
+*.xlsx
+*.sqlite
+*.db
+*.zip
+# Secrets and local settings
+.env.*
+*.pem
+*.key
+.DS_Store
